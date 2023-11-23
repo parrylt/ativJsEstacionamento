@@ -27,15 +27,15 @@ var total = (qtdHoras*valor);
 var cod = prompt ("Qual o código da promoção?");
 var A2ybh = 0.1;
 var B2b33 = 0.2;
-if(cod == A2ybh)
+if(cod == "A2ybh")
 {
     var totalDesc = total - (total*A2ybh);
-    document.write("Seu carro é um " + carro + " da marca " + marca + " e ficou por " + qtdHoras + " horas. O valor é de R$" + total + " reais mas com o código da promoçao 2ybh fica " + totalDesc);
+    document.write("Seu carro é um " + carro + " da marca " + marca + " e ficou por " + qtdHoras + " horas. O valor é de R$" + total + " reais mas com o código da promoçao A2ybh fica " + totalDesc);
 }
-else if (cod == B2b33)
+else if (cod == "B2b33")
 {
     var totalDesc = total - (total*B2b33);
-    document.write("Seu carro é um " + carro + " da marca " + marca + " e ficou por " + qtdHoras + " horas. O valor é de R$" + total + " reais mas com o código da promoçao 2b33 fica " + totalDesc);
+    document.write("Seu carro é um " + carro + " da marca " + marca + " e ficou por " + qtdHoras + " horas. O valor é de R$" + total + " reais mas com o código da promoçao B2b33 fica " + totalDesc);
 }
 else
 {
